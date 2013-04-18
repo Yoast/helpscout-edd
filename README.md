@@ -1,7 +1,8 @@
-helpscout-edd
-=============
-
 HelpScout - Easy Digital Downloads integration
+==============================================
+
+This is the server component you need for your Easy Digital Downloads - HelpScout integration. Issues as well as pull
+requests are warmly welcomed.
 
 Install
 -------
