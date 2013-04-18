@@ -7,7 +7,7 @@ requests are warmly welcomed.
 Install
 -------
 
-1. Download the zip file.
+1. Download the [zip file](https://github.com/jdevalk/helpscout-edd/archive/master.zip) and unzip.
 1. Upload the helpscout-edd folder to the root folder of your WordPress install.
 1. Copy settings-example.php to settings.php and make sure you define a secret key.
 
