@@ -119,7 +119,7 @@ class PluginHandler {
 		$orders = array();
 		foreach ( $results as $result ) {
 			$order         = array();
-			$order['link'] = '<a target="_blank" href="' . get_admin_url( null, 'edit.php?post_type=download&page=edd-payment-history&edd-action=edit-payment&purchase_id=' . $result->post_id ) . '">#' . $result->post_id . '</a>';
+			$order['link'] = '<a target="_blank" href="' . get_admin_url( null, 'edit.php?post_type=download&page=edd-payment-history&view=edit-payment&purchase_id=' . $result->post_id ) . '">#' . $result->post_id . '</a>';
 
 			$post = get_post( $result->post_id );
 
